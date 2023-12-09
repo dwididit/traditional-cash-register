@@ -1,4 +1,4 @@
-# Welcome to simple data cleaning from traditional casier data. Created by Dwi Didit Prasetiyo
+# Welcome to data formatting from traditional cash register. Created by Dwi Didit Prasetiyo
 from data import daily_sales
 
 daily_sales_replaced = daily_sales.replace(";,;","X")
