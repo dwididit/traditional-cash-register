@@ -3,7 +3,6 @@ from data import daily_sales
 
 daily_sales_replaced = daily_sales.replace(";,;","X")
 daily_transactions = daily_sales_replaced.split(",")
-#print(daily_transactions)
 
 daily_transactions_split = []
 for transaction in daily_transactions:
