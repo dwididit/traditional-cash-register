@@ -1,3 +1,3 @@
-Traditional Casier Data
+Traditional Cash Register
 
-Data formatting from traditional casier data
+Data formatting from traditional cash register
