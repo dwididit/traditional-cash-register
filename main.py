@@ -44,11 +44,7 @@ for color in thread_sold:
         thread_sold_split.append(color)
 
 def color_count(color):
-    count = 0
-    for col in thread_sold_split:
-        if col == color:
-            count += 1
-    return count
+    return thread_sold_split.count(color)
 
 color = "white"
 number = color_count(color)
